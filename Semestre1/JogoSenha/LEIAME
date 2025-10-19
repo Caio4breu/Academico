@@ -1,0 +1,19 @@
+# Desafio da Senha
+
+## Regras de Jogo
+
+O jogador precisa oferecer uma senha de **3 dígitos** e possui **3 chances** para conseguir adivinhar a sequencia correta de dígitos para vencer o jogo.
+
+O jogo por sua vez, precisa oferecer dicas para o jogador, dizendo a ele quantos números estão corretos e quantos estão na posição original da senha.
+
+## Sobre o Projeto
+
+Esse projeto foi baseado em uma atividade realizada no primeiro semestre da faculdade, desde então passou por mudanças e atualizações desde que foi desenvolvida no papel usando um pseudocódigo
+
+### Futuras atualizações:
+- Correção de bugs
+- Interface
+
+## Créditos
+
+Baseado na atividade da Professora Camen e desenvolvida por mim
