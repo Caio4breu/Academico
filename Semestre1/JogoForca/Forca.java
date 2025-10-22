@@ -206,10 +206,10 @@ public class Forca {
     }
 
     public void listaUsada(){ // lista completa com todas as letras usadas
-        for (char letra : letrasUsadas) {
-            System.out.print(letra + " ");
+        for (int i = 0; i < letrasUsadas.size(); i++) {
+        System.out.print(letrasUsadas.get(i) + " "); // Acessando o valor de uma ArrayList com o método get()
         }
-        System.out.println("\n");
+        System.out.println("");
     }
 
     public char verificadorLetras(){
@@ -227,19 +227,16 @@ public class Forca {
                 
                 if (letrasUsadas.contains(novaLetra)) {
                     System.out.println("Essa letra já foi usada");
+                    enforcado();
                     listaUsada();
                 } else {
-                    if (!palavraEscolhida.contains(String.valueOf(novaLetra))) {
-                        System.out.println("Letra incorreta");
-                        listaUsada();
-                    } else {
-                        letraValida = true;
-                        return novaLetra;
-                    }
+                    letrasUsadas.add(novaLetra);
+                    letraValida = true;
+                    
                 }
             }
         } while (!letraValida);
-        return ' '; // nao chega aqui, mas é necesario para compilar
+        return novaLetra;
     }
 
     public int enforcado(){
