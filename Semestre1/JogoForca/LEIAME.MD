@@ -18,7 +18,8 @@ Esse projeto foi desenvolvido com o proposito de construção de portifolio.
 1. Correções de bug
 2. Futura interface
 3. Orientação de Objeto
+4. Opções de idiomas (inglês)
 
 ## Créditos
 
-jogo baseado no jogo de forca de criança
+jogo baseado no jogo de forca de criança.
